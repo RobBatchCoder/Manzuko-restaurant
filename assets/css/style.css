@@ -1,9 +1,28 @@
+/*--------Fonts--------*/
+
+/*Headings*/
+@import url('https://fonts.cdnfonts.com/css/shameimaru-sans');
+/*Body*/
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+
 /*Palette*/
 
 .palette{
-    color: #FF8D6B;
-    color: #EBEAD5;
+    color: #FF8D6B;/*Coral*/
+    color: #EBEAD5;/*Egg Shell*/
+    color: #931f1d;/*Ruby Red*/
+    color: #8fa6cb;/*Wild Blue Yonder*/
+    color: #097e8b;/*Metallic Seaweed*/
 }
+
+body{
+    background-color: #EBEAD5;
+}
+
+
+/*---------------Nav Bar----------------*/
+
 
 .navbar{
     --bs-navbar-padding-y: 0;
@@ -11,9 +30,25 @@
 
 .nav-container{
     background-color: #FF8D6B;
-    height: 12.7;
+
 }
 
-h1 {
-    background-color: aqua;
+.navbar-collapse{
+    font-family: 'shameimaru-sans',sans-serif;
 }
+
+.nav-link{
+    font-weight: 600;
+    color: #EBEAD5;
+}
+
+.navbar-nav .nav-link.active, .nav-link:hover,{
+    color: #931f1d;
+}
+    
+
+
+
+
+
+
