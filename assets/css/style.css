@@ -36,11 +36,13 @@
 
 .nav-container {
     font-family: 'shameimaru-sans', sans-serif;
+    padding-right: 1.5rem;
 }
 
 .navbar {
     --bs-navbar-padding-y: 0;
 }
+
 
 .nav-container {
     background-color: #EBEAD5;
@@ -50,6 +52,8 @@
 .nav-link {
     font-weight: 600;
     color: #931f1d;
+    opacity: 0.8;
+    margin-left: 1.5rem;
 }
 
 .navbar-nav .nav-link.active,
