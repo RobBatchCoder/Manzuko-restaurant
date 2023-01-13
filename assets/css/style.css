@@ -8,12 +8,17 @@
 
 /*Palette*/
 
-.palette{
-    color: #FF8D6B;/*Coral*/
-    color: #EBEAD5;/*Egg Shell*/
-    color: #931f1d;/*Ruby Red*/
-    color: #8fa6cb;/*Wild Blue Yonder*/
-    color: #097e8b;/*Metallic Seaweed*/
+.palette {
+    color: #FF8D6B;
+    /*Coral*/
+    color: #EBEAD5;
+    /*Egg Shell*/
+    color: #931f1d;
+    /*Ruby Red*/
+    color: #8fa6cb;
+    /*Wild Blue Yonder*/
+    color: #097e8b;
+    /*Metallic Seaweed*/
 }
 
 
@@ -21,49 +26,50 @@
 
 /*---------------Nav Bar----------------*/
 
-.manzuko-logo{
+.manzuko-logo {
     border-radius: 5px;
 }
 
-.navbar-brand{
+.navbar-brand {
     padding-bottom: 0.5rem
 }
 
+.nav-container {
+    font-family: 'shameimaru-sans', sans-serif;
+}
 
-.navbar{
+.navbar {
     --bs-navbar-padding-y: 0;
 }
 
-.nav-container{
+.nav-container {
     background-color: #EBEAD5;
-
 }
 
-.navbar-collapse{
-    font-family: 'shameimaru-sans',sans-serif;
-}
 
-.nav-link{
+.nav-link {
     font-weight: 600;
     color: #931f1d;
 }
 
-.navbar-nav .nav-link.active, .nav-link:hover{
+.navbar-nav .nav-link.active,
+.nav-link:hover {
     color: #931f1d;
     text-decoration: underline;
-    text-underline-offset: 4px;
+    text-underline-offset: 5px;
+    
 }
 
-
-    
-.reservations-button{
-    background-color:#EBEAD5 ;
+.reservations-button {
+    background-color: #EBEAD5;
     color: #931f1d;
     border-radius: 0;
-    border: thick double#931f1d;
+    border: 3px solid #931f1d;
+    font-weight: 700;
 }
 
-
-
-
-
+.reservations-button:hover{
+    background-color: #FF8D6B;
+    color: #EBEAD5;
+    border-color: #931f1d;
+}
