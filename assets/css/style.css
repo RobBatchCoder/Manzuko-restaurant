@@ -16,12 +16,18 @@
     color: #097e8b;/*Metallic Seaweed*/
 }
 
-body{
-    background-color: #EBEAD5;
-}
+
 
 
 /*---------------Nav Bar----------------*/
+
+.manzuko-logo{
+    border-radius: 5px;
+}
+
+.navbar-brand{
+    padding-bottom: 0.5rem
+}
 
 
 .navbar{
@@ -29,7 +35,7 @@ body{
 }
 
 .nav-container{
-    background-color: #FF8D6B;
+    background-color: #EBEAD5;
 
 }
 
@@ -39,14 +45,23 @@ body{
 
 .nav-link{
     font-weight: 600;
-    color: #EBEAD5;
-}
-
-.navbar-nav .nav-link.active, .nav-link:hover,{
     color: #931f1d;
 }
-    
 
+.navbar-nav .nav-link.active, .nav-link:hover{
+    color: #931f1d;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+
+    
+.reservations-button{
+    background-color:#EBEAD5 ;
+    color: #931f1d;
+    border-radius: 0;
+    border: thick double#931f1d;
+}
 
 
 
