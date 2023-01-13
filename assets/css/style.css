@@ -1,0 +1,19 @@
+/*Palette*/
+
+.palette{
+    color: #FF8D6B;
+    color: #EBEAD5;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0;
+}
+
+.nav-container{
+    background-color: #FF8D6B;
+    height: 12.7;
+}
+
+h1 {
+    background-color: aqua;
+}
