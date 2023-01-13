@@ -37,6 +37,7 @@
 .nav-container {
     font-family: 'shameimaru-sans', sans-serif;
     padding-right: 1.5rem;
+    height: 15vh;
 }
 
 .navbar {
@@ -46,6 +47,7 @@
 
 .nav-container {
     background-color: #EBEAD5;
+
 }
 
 
@@ -61,7 +63,6 @@
     color: #931f1d;
     text-decoration: underline;
     text-underline-offset: 5px;
-    
 }
 
 .reservations-button {
@@ -76,4 +77,11 @@
     background-color: #FF8D6B;
     color: #EBEAD5;
     border-color: #931f1d;
+}
+
+/*---------------------Carousel----------------------*/
+
+.carousel-image{
+    height: 85vh;
+    object-fit: cover;
 }
