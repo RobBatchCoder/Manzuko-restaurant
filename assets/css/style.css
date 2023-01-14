@@ -63,19 +63,19 @@ p {
 
 
 .nav-container {
-    background-color: #8fa6cb;
+    background-color: #EBEAD5;
 }
 
 
 .nav-link {
     font-weight: 600;
-    color: #EBEAD5;
+    color: #931f1d;
     margin-left: 2.5rem;
 }
 
 .navbar-nav .nav-link.active,
 .nav-link:hover {
-    color: #EBEAD5;
+    color: #931f1d;
     text-decoration: underline;
     text-underline-offset: 5px;
 }
@@ -114,4 +114,44 @@ p {
     width: 1.5rem;
     background-color: #097e8b;
     margin: 0px 15px 0px 15px;
+}
+
+
+
+/*---------------------Restaurant description----------------------*/
+
+.restaurant-description-card{
+    margin: 3rem;
+    margin-top: 5rem;
+    background: #EBEAD5;
+    text-align: center;
+    border-radius: 0;
+    border: 5px solid #FF8D6B;
+}
+
+.description-row{
+    background: #FF8D6B ;
+}
+
+.restaurant-description-hr{
+    border: 5px solid #FF8D6B;
+    color: #FF8D6B;
+}
+
+.two-third-bg{
+    background: #EBEAD5;
+    height: 88vh;
+}
+
+.one-third-bg{
+    background: url(/assets/images/sushi-bg-4.jpeg);
+    height: 88vh;
+    background-position-x: 85%;
+    background-position-y: 50%;
+    background-size: cover;
+}
+
+.spacer-row{
+    height: 12vh;
+    background: #EBEAD5;
 }
