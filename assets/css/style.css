@@ -84,7 +84,7 @@ p {
     background-color: #EBEAD5;
     color: #931f1d;
     border-radius: 0;
-    border: 3px solid #931f1d;
+    border: 3px solid #FF8D68;
     font-weight: 700;
 }
 
@@ -134,8 +134,8 @@ p {
 }
 
 .restaurant-description-hr{
-    border: 5px solid #FF8D6B;
-    color: #FF8D6B;
+    border: 3px solid #FF8D6B;
+    background: #FF8D68;
 }
 
 .two-third-bg{
@@ -151,6 +151,9 @@ p {
     background-position-y: 50%;
     background-size: cover;
 }
+
+
+/*---------------------Spacer----------------------*/
 
 .spacer-row{
     height: 12vh;
