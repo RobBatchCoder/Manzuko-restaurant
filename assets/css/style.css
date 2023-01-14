@@ -22,7 +22,24 @@
 }
 
 
+/*---------------General----------------*/
 
+body {
+    background-color: #8fa6cb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'shameimaru-sans'sans-serif;
+}
+
+p {
+    font-family: 'montserrat'sans-serif;
+}
 
 /*---------------Nav Bar----------------*/
 
@@ -46,15 +63,14 @@
 
 
 .nav-container {
-    background-color: #931f1d;
+    background-color: #8fa6cb;
 }
 
 
 .nav-link {
     font-weight: 600;
     color: #EBEAD5;
-    opacity: 0.8;
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
 }
 
 .navbar-nav .nav-link.active,
@@ -78,11 +94,18 @@
     border-color: #931f1d;
 }
 
+.reservations-button:active {
+    --bs-btn-active-bg:#931f1d;
+    --bs-btn-active-border-color: #097e8b;;
+}
+
+
 /*---------------------Carousel----------------------*/
 
 .carousel-image {
     height: 85vh;
     object-fit: cover;
+    margin-top: 15vh;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -92,4 +115,3 @@
     background-color: #097e8b;
     margin: 0px 15px 0px 15px;
 }
-
