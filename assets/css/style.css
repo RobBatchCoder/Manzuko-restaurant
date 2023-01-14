@@ -139,19 +139,20 @@ p {
 }
 
 .two-third-bg{
-    background: #EBEAD5;
+    background: url(/assets/images/sushi-bg-2.jpeg);
     height: 88vh;
+    background-size: cover;
 }
 
 .one-third-bg{
     background: url(/assets/images/sushi-bg-4.jpeg);
     height: 88vh;
-    background-position-x: 85%;
+    background-position-x: 88%;
     background-position-y: 50%;
     background-size: cover;
 }
 
 .spacer-row{
     height: 12vh;
-    background: #EBEAD5;
+    background: white;
 }
