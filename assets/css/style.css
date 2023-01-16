@@ -209,3 +209,10 @@ p {
 .menu-cards-bar{
     border: 5px solid #931f1d;
 }
+
+/*---------------------Footer----------------------*/
+
+.footer-container{
+    height: 30vh;
+    background-color: #EBEAD5;
+}
