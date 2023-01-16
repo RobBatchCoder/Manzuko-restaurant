@@ -24,9 +24,6 @@
 
 /*---------------General----------------*/
 
-body {
-    background-color: #8fa6cb;
-}
 
 h1,
 h2,
@@ -39,6 +36,10 @@ h6 {
 
 p {
     font-family: 'montserrat'sans-serif;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /*---------------Nav Bar----------------*/
@@ -95,8 +96,9 @@ p {
 }
 
 .reservations-button:active {
-    --bs-btn-active-bg:#931f1d;
-    --bs-btn-active-border-color: #097e8b;;
+    --bs-btn-active-bg: #931f1d;
+    --bs-btn-active-border-color: #097e8b;
+    ;
 }
 
 
@@ -120,7 +122,7 @@ p {
 
 /*---------------------Restaurant description----------------------*/
 
-.restaurant-description-card{
+.restaurant-description-card {
     margin: 3rem;
     margin-top: 5rem;
     background: #EBEAD5;
@@ -129,22 +131,22 @@ p {
     border: 5px solid #FF8D6B;
 }
 
-.description-row{
-    background: #FF8D6B ;
+.description-row {
+    background: #FF8D6B;
 }
 
-.restaurant-description-hr{
+.restaurant-description-hr {
     border: 3px solid #FF8D6B;
     background: #FF8D68;
 }
 
-.two-third-bg{
+.two-third-bg {
     background: url(/assets/images/sushi-bg-2.jpeg);
     height: 88vh;
     background-size: cover;
 }
 
-.one-third-bg{
+.one-third-bg {
     background: url(/assets/images/sushi-bg-4.jpeg);
     height: 88vh;
     background-position-x: 88%;
@@ -155,7 +157,35 @@ p {
 
 /*---------------------Spacer----------------------*/
 
-.spacer-row{
+.spacer-row {
     height: 12vh;
     background: white;
+}
+
+/*---------------------Menus----------------------*/
+
+.lunch-bg-image{
+    background: url(/assets/images/Lunch-bg-image.jpeg);
+    background-size: cover;
+    height: 80vh;
+    border: 5px solid #FF8D6B;
+    margin: 2vw;
+}
+
+.al-la-carte-bg-image{
+    background: url(/assets/images/al-la-carte-bg-image.jpeg);
+    background-size: cover;
+    height: 80vh;
+    background-position: 50% 60%;
+    border: 5px solid #097e8b;
+    margin: 2vw;
+}
+
+.drinks-bg-image{
+    background: url(/assets/images/drinks-bg-image.jpeg);
+    background-size: cover;
+    height: 80vh;
+    background-position: center center;
+    border: 5px solid #931f1d;
+    margin: 2vw;
 }
