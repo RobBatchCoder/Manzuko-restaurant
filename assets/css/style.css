@@ -34,7 +34,6 @@ h6 {
     font-family: 'shameimaru-sans'sans-serif;
     color: #931f1d;
     text-transform: uppercase;
-    text-decoration: underline;
 }
 
 p {
@@ -208,6 +207,11 @@ p {
 
 .menu-cards-bar{
     border: 5px solid #931f1d;
+}
+
+.menu-links{
+    text-decoration: none;
+    color: #931f1d;
 }
 
 /*---------------------Footer----------------------*/
