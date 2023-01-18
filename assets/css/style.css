@@ -220,3 +220,9 @@ p {
     height: 30vh;
     background-color: #EBEAD5;
 }
+
+.social-icons {
+    font-size: 5vh;
+    color: #931f1d;
+    margin: 5vh;
+}
