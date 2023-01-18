@@ -20,6 +20,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--JQuery-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!--Date picker JS-->
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+    </script>
+
 
 <body>
     <header>
@@ -64,40 +75,45 @@
                             <h1 class="modal-title fs-5" id="reservation-modal-label">Reserve a table</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
+                        <!--Modal body-->
                         <div class="modal-body">
-                            <!--Date picker-->
                             <section class="container">
-                                <h2 class="py-2">Datepicker in Bootstrap 5</h2>
                                 <form>
                                     <div class="row">
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text" id="inputGroup-sizing-default">Full Name</span>
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Full
+                                                Name</span>
                                             <input type="text" class="form-control" aria-label="Sizing example input"
-                                                aria-describedby="inputGroup-sizing-default">           
+                                                aria-describedby="inputGroup-sizing-default">
                                         </div>
                                     </div>
-                                    
+
                                     <div class="row">
-                                        <label for="date" class="col-2 col-form-label">Date</label>
-                                        <div class="col-5">
-                                            <div class="input-group date" id="datepicker">
-                                                <input type="text" class="form-control" id="date" />
-                                                <span class="input-group-append">
-                                                    <span class="input-group-text bg-light d-block">
-                                                        <i class="fa fa-calendar"></i>
-                                                    </span>
-                                                </span>
+                                        <p>Date: <input type="text" id="datepicker"></p>
+                                    </div>
+                                    
+
+
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="floatingSelectGrid">
+                                                    <option selected>0</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                </select>
+                                                <label for="floatingSelectGrid">Guests</label>
                                             </div>
                                         </div>
+
                                     </div>
-                                    <div class="row">
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text" id="inputGroup-sizing-default">Table size</span>
-                                            <input type="text" class="form-control" aria-label="Sizing example input"
-                                                aria-describedby="inputGroup-sizing-default">           
-                                        </div>
-                                    </div>
-                                    
+
 
                                 </form>
 
@@ -217,8 +233,6 @@
         </div>
         <!--Spacer-->
         <div class="span spacer-row"></div>
-
-
     </section>
     <!--Footer-->
     <footer>
