@@ -229,3 +229,15 @@ p {
 
 /*---------------------Modal----------------------*/
 
+.modal-header{
+    background: #EBEAD5;
+}
+
+.modal-footer{
+    background: #EBEAD5;
+}
+
+.modal-footer > .btn-primary{
+    background: #931f1d;
+    border: #931f1d;
+}
