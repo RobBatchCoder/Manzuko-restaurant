@@ -40,7 +40,7 @@ p {
     font-family: 'montserrat'sans-serif;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -102,7 +102,7 @@ p {
     ;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     background: #EBEAD5;
 }
 
@@ -169,7 +169,7 @@ p {
 
 /*---------------------Menus----------------------*/
 
-.lunch-bg-image{
+.lunch-bg-image {
     background: url(/assets/images/Lunch-bg-image.jpeg);
     background-size: cover;
     height: 80vh;
@@ -177,7 +177,7 @@ p {
     margin: 2vw;
 }
 
-.al-la-carte-bg-image{
+.al-la-carte-bg-image {
     background: url(/assets/images/al-la-carte-bg-image.jpeg);
     background-size: cover;
     height: 80vh;
@@ -186,7 +186,7 @@ p {
     margin: 2vw;
 }
 
-.drinks-bg-image{
+.drinks-bg-image {
     background: url(/assets/images/drinks-bg-image.jpeg);
     background-size: cover;
     height: 80vh;
@@ -195,7 +195,7 @@ p {
     margin: 2vw;
 }
 
-.menu-cards{
+.menu-cards {
     margin: 3rem;
     margin-top: 30rem;
     background: #EBEAD5;
@@ -204,22 +204,22 @@ p {
     border: 5px solid #FF8D6B;
 }
 
-.menu-cards-al-la-carte{
+.menu-cards-al-la-carte {
     border: 5px solid #097e8b;
 }
 
-.menu-cards-bar{
+.menu-cards-bar {
     border: 5px solid #931f1d;
 }
 
-.menu-links{
+.menu-links {
     text-decoration: none;
     color: #931f1d;
 }
 
 /*---------------------Footer----------------------*/
 
-.footer-container{
+.footer-container {
     height: 30vh;
     background-color: #EBEAD5;
 }
@@ -232,22 +232,22 @@ p {
 
 /*---------------------Modal----------------------*/
 
-.modal-header{
+.modal-header {
     background: #EBEAD5;
 }
 
-.modal-footer{
+.modal-footer {
     background: #EBEAD5;
 }
 
-.modal-footer > .btn-primary{
+.modal-footer>.btn-primary {
     background: #931f1d;
     border: #931f1d;
 }
 
 /*-------------------------------Gallery.html----------------------------------------*/
 
-.gallery-image{
+.gallery-image {
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -256,37 +256,50 @@ p {
     padding: 0;
 }
 
-#gallery-section{
+#gallery-section {
     padding-top: 11vh;
     background: #EBEAD5;
 }
 
 /*----------------------------------Contact.html------------------------------------*/
 
-.page-divide-image{
+.page-divide-image {
     height: 100vh;
     width: 100%;
     background: url(/assets/images/page-divide.jpeg);
     background-size: cover;
 }
 
-.contact-card{
+.contact-card {
     margin: 3rem;
     margin-top: 5rem;
     background: #EBEAD5;
     text-align: center;
     border-radius: 0;
     border: 5px solid #097e8b;
-    top: 10rem;
+    top: 7rem;
 }
 
-.contact-card-body > h4 {
+.contact-card-body>h4 {
     color: #097e8b;
 }
 
-.contact-form-button{
+.contact-form-button {
+    margin-top: 10px;
     background: #EBEAD5;
     color: #097e8b;
     font-weight: 500;
     border: 3px solid #097e8b;
+}
+
+.contact-form-button:hover {
+    background-color: #097e8b;
+    color: #EBEAD5;
+    border: 3px solid #097e8b;
+}
+
+.contact-form-button:active {
+    --bs-btn-active-bg: #097e8b;
+    color: #EBEAD5;
+    --bs-btn-border-color: 3px solid #097e8b;
 }
