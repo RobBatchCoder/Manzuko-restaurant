@@ -6,22 +6,6 @@
 @import url('https://fonts.cdnfonts.com/css/montserrat');
 
 
-/*Palette*/
-
-.palette {
-    color: #FF8D6B;
-    /*Coral*/
-    color: #EBEAD5;
-    /*Egg Shell*/
-    color: #931f1d;
-    /*Ruby Red*/
-    color: #8fa6cb;
-    /*Wild Blue Yonder*/
-    color: #097e8b;
-    /*Metallic Seaweed*/
-}
-
-
 /*---------------General----------------*/
 
 h1,
@@ -107,7 +91,7 @@ p {
 
 
 /*---------------------Carousel----------------------*/
-
+/*Styles carousel height to fill view window*/
 .carousel-image {
     height: 89vh;
     object-fit: cover;
@@ -123,9 +107,7 @@ p {
 }
 
 
-
 /*---------------------Restaurant description----------------------*/
-
 .restaurant-description-card {
     margin: 3rem;
     margin-top: 5rem;
@@ -160,14 +142,15 @@ p {
 
 
 /*---------------------Spacer----------------------*/
-
+/*Empty row with set height to create consistant
+place across the project*/
 .spacer-row {
     height: 12vh;
     background: white;
 }
 
 /*---------------------Menus----------------------*/
-
+/*Styles cards containing the menu links*/
 .lunch-bg-image {
     background: url(/assets/images/Lunch-bg-image.jpeg);
     background-size: cover;
@@ -231,7 +214,8 @@ p {
 }
 
 /*---------------------Modal----------------------*/
-
+/*Styles the reservation modal that appears after
+clicking the reservation button*/
 .modal-header {
     background: #EBEAD5;
 }
@@ -249,8 +233,8 @@ p {
     color: #097e8b;
 }
 
-/*-------------------------------Gallery.html----------------------------------------*/
-
+/*-------------------------------gallery.html----------------------------------------*/
+/*Styles the images displayed on the gallery.html*/
 .gallery-image {
     display: inline-block;
     width: 100%;
@@ -265,7 +249,7 @@ p {
     background: #EBEAD5;
 }
 
-/*----------------------------------Contact.html------------------------------------*/
+/*----------------------------------contact.html------------------------------------*/
 
 .page-divide-image {
     height: 100vh;
@@ -284,6 +268,7 @@ p {
     top: 7rem;
 }
 
+/*Styles the contact form shown on contact.html*/
 .contact-card-body>h4 {
     color: #097e8b;
 }
