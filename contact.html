@@ -22,7 +22,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-
 <body>
     <header>
         <!--Nav bar-->
@@ -95,13 +94,11 @@
                                         </div>
                                     </div>
 
-
                                     <div class="row">
                                         <div class="col-4">
                                             <div class="form-floating">
                                                 <select class="form-select" id="floatingSelectGrid">
-                                                    <option selected>0</option>
-                                                    <option value="1">1</option>
+                                                    <option selected>1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
                                                     <option value="4">4</option>
@@ -130,6 +127,7 @@
             </div>
         </section>
     </header>
+
     <!--Contact us section-->
     <section>
         <div class="fluid-container page-divide-image">
@@ -139,7 +137,7 @@
                         <div class="card-body contact-card-body">
                             <h4 class="card-title">Contact</h4>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" name="fname" placeholder="Forename">
+                                <input type="text" class="form-control" name="fname" placeholder="Forename" required>
                             </div>
 
                             <div class="input-group mb-3">
@@ -147,22 +145,21 @@
                             </div>
 
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" name="email" placeholder="Email">
+                                <input type="email" class="form-control" name="email" placeholder="Email" required>
                             </div>
 
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" name="phone" placeholder="Phone">
+                                <input type="tel" class="form-control" name="phone" placeholder="Phone" required>
                             </div>
 
                             <div class="input-group">
                                 <textarea class="form-control" aria-label="With textarea" placeholder="Comments"
-                                    rows="5" name="comments"></textarea>
+                                    rows="5" name="comments" required></textarea>
                             </div>
                             <span>
-                                <button type="button" class="btn btn-primary contact-form-button">Submit</button>
+                                <button type="submit" class="btn btn-primary contact-form-button">Submit</button>
                             </span>
                             
-
                         </div>
                     </div>
                 </div>
@@ -205,7 +202,6 @@
         </div>
 
     </footer>
-
 
     <!--Bootstrap JS link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
