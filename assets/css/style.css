@@ -24,7 +24,6 @@
 
 /*---------------General----------------*/
 
-
 h1,
 h2,
 h3,
@@ -238,12 +237,16 @@ p {
 }
 
 .modal-footer {
-    background: #EBEAD5;
+    margin-top: 3vh;
 }
 
 .modal-footer>.btn-primary {
     background: #931f1d;
     border: #931f1d;
+}
+
+.--bs-btn-active-bg {
+    color: #097e8b;
 }
 
 /*-------------------------------Gallery.html----------------------------------------*/
