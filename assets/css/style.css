@@ -14,13 +14,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'shameimaru-sans'sans-serif;
+    font-family: 'shameimaru-sans', sans-serif;
     color: #931f1d;
     text-transform: uppercase;
 }
 
 p {
-    font-family: 'montserrat'sans-serif;
+    font-family: 'montserrat', sans-serif;
 }
 
 .text-center {
@@ -222,15 +222,12 @@ clicking the reservation button*/
 
 .modal-footer {
     margin-top: 3vh;
+    --bs-btn-active-bg: #097e8b;
 }
 
 .modal-footer>.btn-primary {
     background: #931f1d;
     border: #931f1d;
-}
-
-.--bs-btn-active-bg {
-    color: #097e8b;
 }
 
 /*-------------------------------gallery.html----------------------------------------*/
