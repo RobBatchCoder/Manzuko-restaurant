@@ -17,11 +17,11 @@
     <!--Hover CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
         integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
 <body>
     <header>
@@ -60,8 +60,7 @@
 
         <!-- Modal -->
         <section>
-            <div class="modal fade" id="reservation-modal" tabindex="-1" aria-labelledby="reservation-modal-labelled"
-                aria-hidden="true">
+            <div class="modal fade" id="reservation-modal" tabindex="-1" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -70,38 +69,35 @@
                         </div>
                         <!--Modal body-->
                         <div class="modal-body">
-                            <section class="container">
+                            <div class="container">
                                 <form>
                                     <div class="row">
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text" id="inputGroup-sizing-full-name">Full
+                                            <span class="input-group-text" id="inputGroup-full-name">Full
                                                 Name</span>
-                                            <input type="text" class="form-control" aria-label="name"
-                                                aria-describedby="inputGroup-sizing-default" required>
+                                            <input type="text" class="form-control" aria-label="name" required>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text" id="inputGroup-sizing-date">Date</span>
-                                            <input type="date" class="form-control" aria-label="date"
-                                                aria-describedby="inputGroup-sizing-default" required>
+                                            <span class="input-group-text" id="inputGroup-date">Date</span>
+                                            <input type="date" class="form-control" aria-label="date" required>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="input-group mb-3">
                                             <span class="input-group-text" id="inputGroup-sizing-time">Time</span>
-                                            <input type="time" class="form-control" aria-label="time"
-                                                aria-describedby="inputGroup-sizing-default" required>
+                                            <input type="time" class="form-control" aria-label="time" required>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-4">
                                             <div class="form-floating">
-                                                <select class="form-select" id="floatingSelectGrid" required>
-                                                    <option selected>1</option>
+                                                <select class="form-select" id="floatingSelectGrid">
+                                                    <option selected value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
                                                     <option value="4">4</option>
@@ -113,7 +109,6 @@
                                                 <label for="floatingSelectGrid">Guests</label>
                                             </div>
                                         </div>
-
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -121,7 +116,7 @@
                                         <button type="submit" class="btn btn-primary">Send</button>
                                     </div>
                                 </form>
-                            </section>
+                            </div>
                         </div>
 
                     </div>
