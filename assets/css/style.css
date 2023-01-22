@@ -296,3 +296,7 @@ clicking the reservation button*/
     color: #EBEAD5;
     --bs-btn-border-color: 3px solid #097e8b;
 }
+
+.row{
+    --bs-gutter-x: none;
+}
