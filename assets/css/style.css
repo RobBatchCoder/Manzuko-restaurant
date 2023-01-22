@@ -127,13 +127,13 @@ p {
 }
 
 .two-third-bg {
-    background: url(/assets/images/sushi-bg-2.avif);
+    background: url(../../assets/images/sushi-bg-2.avif);
     height: 88vh;
     background-size: cover;
 }
 
 .one-third-bg {
-    background: url(/assets/images/sushi-bg-4.avif);
+    background: url(../../assets/images/sushi-bg-4.avif);
     height: 88vh;
     background-position-x: 88%;
     background-position-y: 50%;
@@ -152,7 +152,7 @@ place across the project*/
 /*---------------------Menus----------------------*/
 /*Styles cards containing the menu links*/
 .lunch-bg-image {
-    background: url(/assets/images/lunch-bg-image.avif);
+    background: url(../../assets/images/lunch-bg-image.avif);
     background-size: cover;
     height: 80vh;
     border: 5px solid #FF8D6B;
@@ -160,7 +160,7 @@ place across the project*/
 }
 
 .al-la-carte-bg-image {
-    background: url(/assets/images/al-la-carte-bg-image.avif);
+    background: url(../../assets/images/al-la-carte-bg-image.avif);
     background-size: cover;
     height: 80vh;
     background-position: 50% 60%;
@@ -169,7 +169,7 @@ place across the project*/
 }
 
 .drinks-bg-image {
-    background: url(/assets/images/drinks-bg-image.avif);
+    background: url(../../assets/images/drinks-bg-image.avif);
     background-size: cover;
     height: 80vh;
     background-position: center center;
@@ -251,7 +251,7 @@ clicking the reservation button*/
 .page-divide-image {
     height: 100vh;
     width: 100%;
-    background: url(/assets/images/page-divide.avif);
+    background: url(../../assets/images/page-divide.avif);
     background-size: cover;
 }
 
