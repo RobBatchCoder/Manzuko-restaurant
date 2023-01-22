@@ -30,6 +30,7 @@ p {
 
 body{
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 
@@ -158,7 +159,7 @@ place across the project*/
 /*---------------------Menus----------------------*/
 /*Styles cards containing the menu links*/
 .lunch-bg-image {
-    background: url(../assets/images/lunch-bg-image.avif);
+    background: url(../../assets/images/lunch-bg-image.avif);
     background-size: cover;
     height: 80vh;
     border: 5px solid #FF8D6B;
