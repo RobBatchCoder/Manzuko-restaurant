@@ -53,4 +53,16 @@ The foot section displayed on all pages provides essential information to the cu
 ## Wireframe 
 The planning stage of this project included creating a wireframe in Figma. This allowed the number of pages, content required and 
 layout to be determined before coding began.
-![Footer section image](assets/readme-files/manzuko-wireframe.png)
+![Wireframe image](assets/readme-files/manzuko-wireframe.png)
+
+
+## Testing
+Using the lighthouse testing facilty on Google Chrome highlighted a number of issues. 
+
+
+1. Performance was very poor. Pages took too long to load because of the size of the .png files.
+
+    * Solution; The larege .png (10Mb~) files where converted to .avif files. These generated a roughly
+    90% reduction in files eizes and greatly improved performance.  
+
+![Wireframe image](assets/readme-files/lighthouse-test.png)
