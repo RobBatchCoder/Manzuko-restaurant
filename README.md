@@ -10,7 +10,7 @@ description and links to social media are provided. However, the customer isn't 
 attractive and inticing imagry is showcased drawing the customer in and encouraging further exploration.
 
 
-## Existing Features
+# Existing Features
 
 ### Navigation Bar
 The navigation bar is fully reponsive, it provides links to all 4 pages of the website. Included is also a reservation
@@ -50,19 +50,41 @@ The foot section displayed on all pages provides essential information to the cu
 ![Footer section image](assets/readme-files/footer.png)
 
 
-## Wireframe 
+# Wireframe 
 The planning stage of this project included creating a wireframe in Figma. This allowed the number of pages, content required and 
 layout to be determined before coding began.
 ![Wireframe image](assets/readme-files/manzuko-wireframe.png)
 
 
-## Testing
+# Testing
 Using the lighthouse testing facilty on Google Chrome highlighted a number of issues. 
 
 
-1. Performance was very poor. Pages took too long to load because of the size of the .png files.
+### 1. Performance
+* Performance was very poor. Pages took too long to load because of the size of the .png files.
 
-    * Solution; The larege .png (10Mb~) files where converted to .avif files. These generated a roughly
-    90% reduction in files eizes and greatly improved performance.  
+    Solution; The large image files .png (10Mb~) where converted to .avif files. These generated a roughly
+    90% reduction in files sizes and greatly improved performance.  
+
+### 2. Accessabilty
+* Accessability score was poor. Aria labels were missing from several elements and some aria labels weren't
+unique.
+
+    Solution; Unique aria labels were added to all elements missing them. Alt tags were also added to images.
+
+### 3. Best Practices
+* Initially best practices scored 100% so no changes were necessary.
+
+### 4. Search engine optimization
+* Search engine opimization scored poorly. 
+
+    Solution; Meta description tag was added to give more information about the site upon a search. This brought
+    the SEO score up to 100%. 
+
+After several lighthouse tests and improvements the final scores are shown below.
 
 ![Wireframe image](assets/readme-files/lighthouse-test.png)
+
+## HTML Validators
+
+
