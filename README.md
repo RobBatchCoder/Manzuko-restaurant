@@ -1,13 +1,25 @@
+![Logo image](assets/images/manzuko-logo.avif)
 # Manzuko Sushi Restaurant 
 
 ## Contents
 
 * [Project Description](#project-description)
+* [User Experience](#user-experience)
+* [Creation Process](#creation-process)
 * [Design](#design)
     * [Logo](#logo)
     * [Colour Scheme](#colour-scheme)
     * [Typography](#typography)
     * [Imagery](#imagery)
+* [Tablet and mobile view](#tablet-and-mobile-view)
+    * [Desktop, tablet and mobile differences](#desktop,-tablet-and-mobile-differences)
+    * [Tablet view](#tablet-view)
+    * [Mobile view](#mobile-view)
+* [Future Features](#future-features)
+* [Technologies used](#technologies-used)  
+    * [Languages used](#languages-used)
+    * [Frameworks, libraries & programs used](#frameworks,-libraries-&-programs-used)
+* [Deployment](#deployment)
 * [Testing](#testing) 
 
 # Project Description
@@ -19,6 +31,40 @@ and comment tables in place. The nessersary information such as location, menus,
 description and links to social media are provided. However, the customer isn't floaded with information, instead
 attractive and inticing imagry is showcased drawing the customer in and encouraging further exploration.
 
+
+# User Experience (UX)
+## Primary Goal
+The goal of the Manzuko website is to create a pleasant and engaging site that demonstrates the strong asthetic nature
+of the restuarant and products it produces. 
+
+## Visitor Goals
+Visitors to Manzuko tend to have an age of 25+ as the restraunt offers a high quality experience and customers pay a premium
+for this. These users expect a professional, easy to use and intuitative user experience. Navigation, buttons and layout perform 
+according to convention and these customers would be comfortable navigating the site on their first visit. The website will function
+responsively as users will likey use a variety of devices when choosing a restaurant.
+
+## First time visitor
+* Users can easily access all pages through navigation bar.
+* Menu items are immediately showcased in the crousel, encouraging further exploration. 
+* Users are immediately able to make a reservation, saving them looking to find that function.
+* Users are presented with vital information such as address and opening times in the footer element.
+
+## Returning visitor
+* A returning customer can quickly access menus and reservation booking to plan their visit.
+* Returning customer's can easily access social media links inorder to engage with the community
+and learn about upcoming events.
+* The contact page enables returning customers to leave a comment and know that their opinions matter.
+
+# Creation Process
+## Strategy
+
+## Scope
+## Structure
+## Skeleton
+## Wireframe 
+The planning stage of this project included creating a wireframe in Figma. This allowed the number of pages, content required and 
+layout to be determined before coding began.
+![Wireframe image](assets/readme-files/manzuko-wireframe.png)
 
 # Design
 
@@ -42,15 +88,11 @@ The fronts for this project were taken from https://www.cdnfonts.com/ .
  * Montserrat was chosen for the paragaph elements as it contrasted well with Shameimaru-sans and remained easily readable at smaller
  sizes.
  ![Monserrat font](assets/readme-files/monserrat-font.png)
+ 
 ## Imagery 
+All images were taken from https://stock.adobe.com/uk/. These are all free licenced materials.
 
-
-## Wireframe 
-The planning stage of this project included creating a wireframe in Figma. This allowed the number of pages, content required and 
-layout to be determined before coding began.
-![Wireframe image](assets/readme-files/manzuko-wireframe.png)
-
-
+ 
 
 # Existing Features
 
@@ -92,8 +134,23 @@ The foot section displayed on all pages provides essential information to the cu
 ![Footer section image](assets/readme-files/footer.png)
 
 
+# Tablet and mobile view
 
+## Desktop, tablet and mobile differences
 
+## Tablet view
+
+## Mobile view
+
+# Future features
+
+# Technologies used
+
+## Languages used
+
+## Frameworks, libraries & programs used
+
+# Deployment
 
 # Testing
 Using the lighthouse testing facilty on Google Chrome highlighted a number of issues. 
