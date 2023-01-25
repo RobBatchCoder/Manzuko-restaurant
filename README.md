@@ -51,22 +51,60 @@ responsively as users will likey use a variety of devices when choosing a restau
 
 ## Returning visitor
 * A returning customer can quickly access menus and reservation booking to plan their visit.
-* Returning customer's can easily access social media links inorder to engage with the community
+* Returning customers can easily access social media links inorder to engage with the community
 and learn about upcoming events.
 * The contact page enables returning customers to leave a comment and know that their opinions matter.
 
 # Creation Process
-## Strategy
+ 
+## 1. Strategy
+* The website needs to be easy to interact with and navigate through as the intended users are not neccessarily tech savvy.
+* The website must imeddiatley and consistantly showcase attract menu items and related imagry in order to draw the user in
+and create desire.
+* The website has to have a reservation system inorder to convert web users to restaurant attendees.
+* The website requires a responsive design that remains visually appealing on all devices as potential customers will be accessing
+the site from a variety of devices.
 
-## Scope
-## Structure
-## Skeleton
-## Wireframe 
+## 2. Scope
+* The website contains only the most relevant information and instead focus on visually stimulating content.
+* The website utalises the bootstrap framework inorder to create a mobile first responsive site.
+* A brief description of the restaurant is included on the homepage.
+* The restaurant is located in London so the website is designed mainly for London residents and tourists.
+
+## 3. Structure
+* The website has a consistent structure across all pages with a sticky nav bar so navigation from page to page remains easy
+and intuitive across the site.
+* The menu links section is displayed on the homepage and on its own dedicated page so that users can navigate to the menu section through the nav bar from any page on the site. This will ensure that the menus are easily available from any part of the website.
+* The footer is consistant across all pages and it will include vital information such as, opening times, address and social media 
+links. 
+* The navigation bar and the restuarant description section will include a reservation button which will open a reservation model.
+
+## 4. Skeleton
+The site was designed to be simply, elegant and asthetically pleasing. 
+* The logo is displayed at the top left of the view window on every page and acts as a link back to the homepage.
+* The nav bar is fixed to the top of the page and allows easy and consistant navigation across the whole webpage. The current page
+is underlined on the nav bar so users are always aware of their location on the page.
+* The first thing a users sees upon loading the homepage is a large carousel that showcases the appealing menu items from the restaurant.
+* For returning visitors who wish to leave a comment about their experience, th econtact link on the nav bar takes them straight 
+to a form where they can input their personal information and a comment.
+* The restuarant description section consists of 2 divs displaying background images on large screen sizes, on mobile view one of
+these divs is removed to improve the balance and readability of this section.
+* All links displayed on the page open in a new windown in the browsers. This prevents users from being taken away from the site 
+and improves usability.
+* The gallery page main secttion contains 9 high quality images. These images exist within the bootstrap column structure and are
+adjust their position and size responsivly to the device being used.
+
+## 5. Wireframe 
 The planning stage of this project included creating a wireframe in Figma. This allowed the number of pages, content required and 
 layout to be determined before coding began.
-![Wireframe image](assets/readme-files/manzuko-wireframe.png)
-
-# Design
+### Home page wireframe
+![Wireframe image](assets/readme-files/homepage-wireframe.png)
+### Menu wireframe
+![Wireframe image](assets/readme-files/menu-wireframe.png)
+### Gallery wireframe
+![Wireframe image](assets/readme-files/gallery-wireframe.png)
+### Contact wireframe
+![Wireframe image](assets/readme-files/contact-form-wireframe.png)
 
 ## Colour Scheme
 To generate the palette for the Manzuko project the website https://coolors.co was used. The palette began with the selection of 
