@@ -105,7 +105,7 @@ used sparingly to continue the seafood theme.
 ## 5. Wireframe 
 The planning stage of this project included creating a wireframe in Figma. This allowed the number of pages, content required and 
 layout to be determined before coding began.
-### Home page wireframe
+### Home page wireframe (OPEN BELOW)
 <details closed>
 <summary>Open here</summary>
 <img src="assets/readme-files/homepage-wireframe.png" alt="Home page wireframe" width="450px"/>
