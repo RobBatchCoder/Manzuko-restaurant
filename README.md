@@ -98,13 +98,28 @@ adjust their position and size responsivly to the device being used.
 The planning stage of this project included creating a wireframe in Figma. This allowed the number of pages, content required and 
 layout to be determined before coding began.
 ### Home page wireframe
-![Wireframe image](assets/readme-files/homepage-wireframe.png)
+<details closed>
+<summary>Open here</summary>
+<img src="assets/readme-files/homepage-wireframe.png" alt="Home page wireframe" width="450px"/>
+</details>
+
 ### Menu wireframe
-![Wireframe image](assets/readme-files/menu-wireframe.png)
+<details closed>
+<summary>Open here</summary>
+<img src="assets/readme-files/menu-wireframe.png" alt="Menu wireframe" width="450px"/>
+</details>
+
 ### Gallery wireframe
-![Wireframe image](assets/readme-files/gallery-wireframe.png)
+<details closed>
+<summary>Open here</summary>
+<img src="assets/readme-files/gallery-wireframe.png" alt="Gallery wireframe" width="450px"/>
+</details>
+
 ### Contact wireframe
-![Wireframe image](assets/readme-files/contact-form-wireframe.png)
+<details closed>
+<summary>Open here</summary>
+<img src="assets/readme-files/contact-form-wireframe.png" alt="Contact wireframe" width="450px"/>
+</details>
 
 ## Colour Scheme
 To generate the palette for the Manzuko project the website https://coolors.co was used. The palette began with the selection of 
