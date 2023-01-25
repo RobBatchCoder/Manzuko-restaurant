@@ -22,6 +22,7 @@
 * [Deployment](#deployment)
 * [Testing](#testing) 
 
+
 # Project Description
 In this project the aim was to present and market the imagined sushi restaurant, Manzuko. With the aim
 of converting website viewers into restarant customers a large importance was placed on appealing imagry
@@ -93,6 +94,15 @@ these divs is removed to improve the balance and readability of this section.
 and improves usability.
 * The gallery page main secttion contains 9 high quality images. These images exist within the bootstrap column structure and are
 adjust their position and size responsivly to the device being used.
+
+## 5. Surface
+The top level design remains consistant across all pages. Borders, margins and colors follow a consistent theme which allows all
+elements to appear as they belong together.
+* The colour Coral is used throughout the project as it represents the seafood element and remains sutle meeting the requirements 
+of the project. The colour Eggshell contrasts well with coral and is used throughout the project also. Metallic Blue Seaweed is 
+used sparingly to continue the seafood theme.
+* To create an elegant and well balanced site, white spacing between elements is used frequently throughout the site.
+* An importance is placed on the asthetics of the site so the selection of appropriate images was a top priority. High quality, colourful and contrasting images are used throughout.  
 
 ## 5. Wireframe 
 The planning stage of this project included creating a wireframe in Figma. This allowed the number of pages, content required and 
@@ -188,10 +198,11 @@ The foot section displayed on all pages provides essential information to the cu
 
 
 # Tablet and mobile view
-
 ## Desktop, tablet and mobile differences
+The bootstrap framework was used to created a responsive webite site across mobile, tablet and desktop devices. 
 
 ## Tablet view
+
 
 ## Mobile view
 
