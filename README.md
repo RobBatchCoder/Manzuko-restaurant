@@ -200,19 +200,47 @@ The foot section displayed on all pages provides essential information to the cu
 # Tablet and mobile view
 ## Desktop, tablet and mobile differences
 The bootstrap framework was used to created a responsive webite site across mobile, tablet and desktop devices. 
+![Home page displayed on multiple devices](assets/readme-files/multi-device-view.png) 
+
+## Desktop view
+* Nav bar is displayed in full
+* Restaurant description section contains an extra div with background image.
+* Gallery sections uses Bootstrap grid system to display colums 3x3.
 
 ## Tablet view
-
+* The nav bar is reduced to a burger menu to save space.
+* Gallery sections uses Bootstrap grid system to display colums 3x3.
+* Bootstrap fluid containers allow easy resizing of elements with minimal extra code. 
 
 ## Mobile view
+* The nav bar is reduced to a burger menu to save space.
+* The restaurant description section is reduced down to 1 background div instead of one and the card containing text is centered.
+* Gallery images take up the whole width of the view window.
 
 # Future features
+* The website in it's current state is only a front-end so further development would require fleshing out the backend
+inorder to make it a functional site.
+* Additional pages should be added to highlight events and special occasions hosted at the restaurant.
+* Inorder to keep up menu/decor changes the gallery images should be updated regularly.
+* An online ordering and delivery system could be added to allow a better experience for those ordering takeaway.  
 
 # Technologies used
-
 ## Languages used
+* HTML5
+* CSS3
 
 ## Frameworks, libraries & programs used
+* Bootstrap 5.2.3
+* Hover.css - Used for button animation
+* Cooler.co - Used to create colour palette
+* Figma - Used for wireframing
+* Chrome Dev tools - Used for trouble shooting
+* Google lighthouse - Used for testing
+* W3C Validator - Used to test errors in html and css
+* Wix - Used to create logo
+* GitHub - Used for version control 
+* GitPod - Cloud IDE and dev ops
+* Adobe.stock - Used to source images.
 
 # Deployment
 
