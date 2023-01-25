@@ -246,6 +246,7 @@ clicking the reservation button*/
 
 /*-------------------------------gallery.html----------------------------------------*/
 /*Styles the images displayed on the gallery.html*/
+
 .gallery-image {
     display: inline-block;
     width: 100%;
@@ -304,6 +305,6 @@ clicking the reservation button*/
     --bs-btn-border-color: 3px solid #097e8b;
 }
 
-.row{
+.row {
     --bs-gutter-x: none;
 }
