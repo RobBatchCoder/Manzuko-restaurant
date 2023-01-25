@@ -1,26 +1,27 @@
 ![Logo image](assets/images/manzuko-logo.avif)
 # Manzuko Sushi Restaurant 
-
+Visit a live version of the site: https://robbatchcoder.github.io/Manzuko-restaurant/
 ## Contents
 
 * [Project Description](#project-description)
 * [User Experience](#user-experience)
 * [Creation Process](#creation-process)
 * [Design](#design)
-    * [Logo](#logo)
     * [Colour Scheme](#colour-scheme)
+    * [Logo](#logo)
     * [Typography](#typography)
     * [Imagery](#imagery)
-* [Tablet and mobile view](#tablet-and-mobile-view)
-    * [Desktop, tablet and mobile differences](#desktop,-tablet-and-mobile-differences)
+* [Responsive design](#responsive-design)
+    * [Desktop, tablet and mobile differences](#desktop-tablet-and-mobile-differences)
     * [Tablet view](#tablet-view)
     * [Mobile view](#mobile-view)
 * [Future Features](#future-features)
 * [Technologies used](#technologies-used)  
     * [Languages used](#languages-used)
-    * [Frameworks, libraries & programs used](#frameworks,-libraries-&-programs-used)
+    * [Frameworks, libraries & programs used](#frameworks-libraries--programs-used)
 * [Deployment](#deployment)
-* [Testing](#testing) 
+* [Testing](#testing)
+* [Acknowledgements](#acknowledgements)
 
 
 # Project Description
@@ -33,7 +34,7 @@ description and links to social media are provided. However, the customer isn't 
 attractive and inticing imagry is showcased drawing the customer in and encouraging further exploration.
 
 
-# User Experience (UX)
+# User Experience
 ## Primary Goal
 The goal of the Manzuko website is to create a pleasant and engaging site that demonstrates the strong asthetic nature
 of the restuarant and products it produces. 
@@ -131,6 +132,7 @@ layout to be determined before coding began.
 <img src="assets/readme-files/contact-form-wireframe.png" alt="Contact wireframe" width="450px"/>
 </details>
 
+# Design
 ## Colour Scheme
 To generate the palette for the Manzuko project the website https://coolors.co was used. The palette began with the selection of 
 coral for use with the logo and as the main colour theme of the website. Coral matched with the seafood theme of the website and it's
@@ -197,7 +199,7 @@ The foot section displayed on all pages provides essential information to the cu
 ![Footer section image](assets/readme-files/footer.png)
 
 
-# Tablet and mobile view
+# Responsive design
 ## Desktop, tablet and mobile differences
 The bootstrap framework was used to created a responsive webite site across mobile, tablet and desktop devices. 
 ![Home page displayed on multiple devices](assets/readme-files/multi-device-view.png) 
@@ -243,6 +245,9 @@ inorder to make it a functional site.
 * Adobe.stock - Used to source images.
 
 # Deployment
+The project was deloped on GitHub Pages.
+
+![GitHub pages deploy page](assets/readme-files/github-pages.png)
 
 # Testing
 Using the lighthouse testing facilty on Google Chrome highlighted a number of issues. 
@@ -290,5 +295,12 @@ To test html code the html validator https://validator.w3.org/. The CSS page was
 returned 0 errors.
 
 
-
 ![HTML validator](assets/readme-files/css-validator.png)
+
+
+# Acknowledgements
+
+* I'd like to thanks Code Institute for putting together an excellent course and giving me the opportunity to reach my
+career goals.
+* I'd also like to thank Richey Malhotra for his excellent advice, mentorship and insight. This project would have looked 
+very different without his help and I'm immensely grateful for all he has given me and my fellow course members. 
